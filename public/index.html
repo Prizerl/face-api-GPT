@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="표정인식 챗봇" />
+    <title>표정인식 챗봇</title>
+    
+    <!-- face-api.js -->
+    <script defer src="./api/face-api.min.js"></script>
+    
+    <!-- Chart.js 라이브러리 추가 -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+    <script defer src="script.js"></script>
+    
+    <!-- React 및 ReactDOM -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.development.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.development.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="main-container">
+      <div id="chart-container">
+        <canvas id="emotionChart"></canvas> <!-- 감정 그래프를 위한 캔버스 -->
+        <div id="labels-container">
+          <div class="label-item">
+            <span style="background-color: black"></span>
+            <img src="/img/neutral.jpg" alt="Neutral" />
+          </div>
+          <div class="label-item">
+            <span style="background-color: green"></span>
+            <img src="/img/happy.jpg" alt="Happy" />
+          </div>
+          <div class="label-item">
+            <span style="background-color: blue"></span>
+            <img src="/img/sad.jpg" alt="Sad" />
+          </div>
+          <div class="label-item">
+            <span style="background-color: red"></span>
+            <img src="/img/angry.jpg" alt="Angry" />
+          </div>
+          <div class="label-item">
+            <span style="background-color: purple"></span>
+            <img src="/img/fearful.jpg" alt="Fearful" />
+          </div>
+          <div class="label-item">
+            <span style="background-color: cyan"></span>
+            <img src="/img/disgusted.jpg" alt="Disgusted" />
+          </div>
+          <div class="label-item">
+            <span style="background-color: yellow"></span>
+            <img src="/img/surprised.jpg" alt="Surprised" />
+          </div>
+        </div>
+      </div>
+      <div id="v">
+        <video id="video" autoplay muted></video>
+      </div>
+      <div id="main-container_empty"></div>
+    </div>
+    <div id="root"></div>
+  </body>
+</html>
