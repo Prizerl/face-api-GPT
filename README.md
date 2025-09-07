@@ -1,14 +1,13 @@
-<img width="1709" height="899" alt="image" src="https://github.com/user-attachments/assets/104b11f1-95d8-4b03-be2c-ae6a2e9dda0a" />
+<img width="1922" height="927" alt="image" src="https://github.com/user-attachments/assets/6c0d07c2-ec2e-465d-8525-41d24f4ab37b" />
+<img width="1922" height="943" alt="image" src="https://github.com/user-attachments/assets/c2ac306a-ba66-4d79-aea9-6cf9f633d5a2" />
+<img width="1922" height="897" alt="image" src="https://github.com/user-attachments/assets/9fcb0d40-cad0-403d-9229-632500a76867" />
+<img width="1922" height="945" alt="image" src="https://github.com/user-attachments/assets/bd9313ae-0bc0-42c1-bdaa-467bf933a595" />
+<img width="1922" height="961" alt="image" src="https://github.com/user-attachments/assets/ebc19468-7e96-4e64-8585-1ad00750f2d9" />
+<img width="1922" height="1049" alt="image" src="https://github.com/user-attachments/assets/46e527fe-de3c-4ce8-8b6f-4d7cd5e40e52" />
 
 
-
-
-
-
-
-
-
-
+# 참고 문헌
+- face-api.js(https://github.com/justadudewhohacks/face-api.js/)
 
 # Getting Started with Create React App
 
